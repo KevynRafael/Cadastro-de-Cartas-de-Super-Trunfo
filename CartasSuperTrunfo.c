@@ -20,7 +20,7 @@ int main(){
 
   printf("Ótimo! Agora me diga um código de dois numeros (ex: 01, 02 etc.) do primeiro estado:\n");
   scanf(" %s", codigo1);
-  printf("Agora um código de dois numeros do segundo estado?\n");
+  printf("Agora um código de dois numeros do segundo estado:\n");
   scanf(" %s", codigo2);
 
   //Obtendo a cidade.
@@ -60,10 +60,10 @@ int main(){
 
   //Agora irei mostrar as cartas para o usuário.
 
-  printf("\n\nParabens suas duas cartasforam concluidas com sucesso\n Aqui estão as cartas que você cadastrou:\n\n");
+  printf("\n\nParabens suas duas cartas foram concluidas com sucesso\n Aqui estão as cartas que você cadastrou:\n\n");
   printf("Carta 1:\n");
   printf("Estado: %c\n", estado1);
-  printf("Código: %c%s\n", estado1, codigo1);
+  printf("Código: %c%s\n", estado1, codigo1);s
   printf("Cidade: %s\n", cidade1);
   printf("População: %d\n", populacao1);
   printf("Área: %.2f km²\n", area1);
